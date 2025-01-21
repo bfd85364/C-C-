@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01_배열">
+      <UniqueIdentifier>{899061a0-6e6d-4aa8-ba26-f6163b8760e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_연결리스트">
+      <UniqueIdentifier>{00cae24f-794d-44b0-b227-30baaeda6714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_스택">
+      <UniqueIdentifier>{599f64ec-5aac-4cd2-90e7-297a62a02314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_큐">
+      <UniqueIdentifier>{907e46f4-c6be-4704-bc41-7b8cd4ed7a87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myarr.h">
+      <Filter>01_배열</Filter>
+    </ClInclude>
+    <ClInclude Include="mydlist.h">
+      <Filter>02_연결리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="mydlist1.h">
+      <Filter>02_연결리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="mydlist2.h">
+      <Filter>02_연결리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="mylist.h">
+      <Filter>02_연결리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="mystack1.h">
+      <Filter>03_스택</Filter>
+    </ClInclude>
+    <ClInclude Include="mystack2.h">
+      <Filter>03_스택</Filter>
+    </ClInclude>
+    <ClInclude Include="MyQueue1.h">
+      <Filter>04_큐</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myarr.cpp">
+      <Filter>01_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="mydlist.cpp">
+      <Filter>02_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDList1.cpp">
+      <Filter>02_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="mydlist2.cpp">
+      <Filter>02_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="mylist.cpp">
+      <Filter>02_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="mystack1.cpp">
+      <Filter>03_스택</Filter>
+    </ClCompile>
+    <ClCompile Include="mystack2.cpp">
+      <Filter>03_스택</Filter>
+    </ClCompile>
+    <ClCompile Include="MyQueue1.cpp">
+      <Filter>04_큐</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
